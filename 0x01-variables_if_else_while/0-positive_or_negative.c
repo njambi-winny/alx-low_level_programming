@@ -4,14 +4,14 @@
 
 /**
  * main - prints positive or negative number or 0
- * Return: always 0
+ * iReturn: always 0
  */
 
 int main(void)
 {
 	int n;
 
-	strand(time(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
